@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+ul li{
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    left: 5%;
+}
+ul li:hover{
+    cursor: pointer;
+}
+.ul1{
+    position: relative;
+    left: 15%;
+}
+.ul2{
+    position: relative;
+    left: 20%;
+}.ul3{
+    position: relative;
+    left: 25%;
+}
+.ul4{
+    position: relative;
+    left: 30%;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2%;
+    padding: 3px;
+    /* border: 2px solid black; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: rgb(74, 74, 74);
+}
+
+.navimg{
+    background-image: url("Assets/RE1Mu3b.png");
+    position: relative;
+    left: 3%;
+    height: 1.2vw;
+    width: 5cm;
+    padding: 1%;
+}
+.b1{
+    background-image: url("Assets/Highlight-M365-Icon-Bounce-Word-Merch_VP4-1399x600.avif");
+    width: auto;
+    height: 540px;
+    
+}
+
+.inb1{
+    
+    padding: 5%;
+    width: 30px;
+}
+.inb1 span{
+    position: absolute;
+    top: 35%;
+    left: 8.5%;
+    font-weight: 400;
+    /* font-size: 37px; */
+}
+.inb1 p{
+    position: absolute;
+    top: 45%; 
+    width: 30%;
+    left: 8.5%;
+    font-size: 16px;
+    /* display: grid;
+    grid-template-rows: auto auto auto; */
+} 
+.inb1 a{
+    position: absolute;
+    top:64%;
+    left:22%;
+    color: black;font-weight: 500;
+    text-decoration: none;
+}
+.s1b1{
+    background-color: #0067B8;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    height: 40px;
+    width: 140px;
+    font-weight: 500;
+    top:63%;
+    left: 8.5%;
+    padding: 6px;
+    border: 01px;
+    border-radius: 2px;
+    font-size: 16px;
+}
+.inb1 button:hover{
+    background-color: rgb(17, 82, 202);
+}
+.symbols{    
+    position: absolute;
+    top: 102%;
+    left: 45%;
+    font-size: 16px;
+}
+.containerbox1{
+    
+    padding: 5%;
+    /* width: 80%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.containerbox1 a{
+    color: #0067B8;
+    font-size: 18px;
+    font-weight: 600;
+}
+.containerbox1 img{
+    position: relative;
+    left: 40%;
+}
+.containerbox2{
+    padding: 4%;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.containerbox2 .item1 a.onehref,.containerbox2 .item2  a.onehref,.containerbox2 .item3 a.onehref,.containerbox2 .item4 a.onehref{
+    color: #000000;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 600;
+}
+.containerbox2 .item1 a,.containerbox2 .item2  a,.containerbox2 .item3 a,.containerbox2 .item4 a{
+    color: #0067B8;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.containerbox2 .item1,.containerbox2 .item2,.containerbox2 .item3,.containerbox2 .item4{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+    border: 2%;
+}
+.containerbox2 .item1 img,.containerbox2 .item4 img,.containerbox2 .item2 img,.containerbox2 .item3 img{
+    width: 100%;
+}
+
+.inxbox{
+    margin: 5%;
+    background-image: url("Assets/Highlight-Xbox-Series-S-Light-Background_VP4-1260x600.avif");
+    height: 550px;
+}
+.inboxmaterial{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 40%;
+    left: 60%;
+    display: grid;
+    grid-template-rows:15px 15px 15px;
+    grid-gap: 35px;
+    width: 25%;
+}
+.materialbutton{
+    padding: 5%;
+    background-color: darkslateblue;
+    color: antiquewhite;
+}
